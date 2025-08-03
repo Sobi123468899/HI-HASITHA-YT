@@ -1,0 +1,10 @@
+            - name: PolyAPI Deployment Action (TypeScript)
+  # You may pin to the exact commit or the version.
+  # uses: polyapi/poly-deployment-action-js@0af1ee6bb056f8e6cbde46ea212155c8bf14c516
+  uses: polyapi/poly-deployment-action-js@v0.2.16
+  with:
+    # The API key for Poly.
+    poly_api_key: 
+    # The base url for the deploy target poly instance.
+    poly_api_base_url: 
+          
